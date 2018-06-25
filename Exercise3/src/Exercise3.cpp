@@ -10,6 +10,30 @@
 using namespace std;
 
 int main() {
-	cout << "!!!Hello World!!!" << endl; // prints !!!Hello World!!!
+	int digit;
+
+	cout << "Enter a five-digit number: ";
+
+	cin >> digit;
+
+	cout << digit << "   ";
+
+	digit = digit % 10000;
+
+	cout << digit << "   ";
+
+	digit = digit % 1000;
+
+	cout << digit << "   ";
+
+	digit = digit % 100;
+
+	cout << digit << "   ";
+
+	digit = digit % 10;
+
+	cout << digit << endl;
+
+
 	return 0;
 }
