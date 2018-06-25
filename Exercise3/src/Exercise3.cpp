@@ -1,8 +1,8 @@
 //============================================================================
-// Name        : Lab1.cpp
-// Author      : David
+// Name        : Exercise3.cpp
+// Author      : David Gilkeson
 // Version     :
-// Copyright   : Your copyright notice
+// Copyright   : CS264
 // Description : Hello World in C++, Ansi-style
 //============================================================================
 
