@@ -12,27 +12,23 @@ using namespace std;
 int main() {
 	int digit;
 
-	cout << "Enter a five-digit number: ";
+	cout << "Enter a five-digit number:\n";
 
 	cin >> digit;
 
-	cout << digit << "   ";
 
-	digit = digit % 10000;
+	int digit1 = digit % 10;
 
-	cout << digit << "   ";
+	int digit2 = digit / 10 % 10;
 
-	digit = digit % 1000;
+	int digit3 = digit / 100 % 10;
 
-	cout << digit << "   ";
+	int digit4 = digit / 1000 % 10;
 
-	digit = digit % 100;
+	int digit5 = digit / 10000 % 10;
 
-	cout << digit << "   ";
 
-	digit = digit % 10;
-
-	cout << digit << endl;
+	cout << digit5 << "   " << digit4 << "   " << digit3 << "   " << digit2 << "   " << digit1 << endl;
 
 
 	return 0;
